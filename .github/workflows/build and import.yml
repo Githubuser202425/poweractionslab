@@ -114,7 +114,9 @@ jobs:
 
         lfs: true
 
- 
+    - name: Install Power Platform Tools
+        
+      uses: microsoft/powerplatform-actions/actions-install@v1
 
     - name: Pack solution
 
@@ -128,9 +130,7 @@ jobs:
 
         solution-type: Managed
 
-    - name: Install Power Platform Tools
-        
-      uses: microsoft/powerplatform-actions/actions-install@v1
+    
           
 
  
