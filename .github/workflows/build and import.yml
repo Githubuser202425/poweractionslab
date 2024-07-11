@@ -78,7 +78,7 @@ on:
 
         required: true
 
-        default: ‘e1a8c3a3-24da-4d74-9e94-792f500c537c’
+        default: e1a8c3a3-24da-4d74-9e94-792f500c537c
 
       TENANT_ID:
 
@@ -88,7 +88,7 @@ on:
 
         required: true
 
-        default: ‘37266589-afea-4673-9c44-f4cc3eff6a70’ 
+        default: 37266589-afea-4673-9c44-f4cc3eff6a70 
 
  
 
