@@ -28,7 +28,5 @@
   <IsCustomizable>1</IsCustomizable>
   <BackgroundImageUri>/CanvasApps/cr084_testapp_27410_BackgroundImageUri</BackgroundImageUri>
   <DocumentUri>/CanvasApps/cr084_testapp_27410_DocumentUri.msapp</DocumentUri>
-  <AdditionalUris>
-    <AdditionalUri>/CanvasApps/cr084_testapp_27410_AdditionalUris0_identity.json</AdditionalUri>
-  </AdditionalUris>
+  
 </CanvasApp>
