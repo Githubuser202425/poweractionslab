@@ -126,9 +126,9 @@ jobs:
 
         solution-folder: ${{ inputs.solution_source_folder}}/${{ inputs.solution_name }}
 
-        solution-file: ${{ inputs.solution_outbound_folder}}/${{ inputs.solution_name }}_managed.zip
+        solution-file: ${{ inputs.solution_outbound_folder}}/${{ inputs.solution_name }}_unmanaged.zip
 
-        solution-type: Managed
+        solution-type: UnManaged
 
     
           
