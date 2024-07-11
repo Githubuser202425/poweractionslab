@@ -117,6 +117,8 @@ jobs:
     - name: Install Power Platform Tools
         
       uses: microsoft/powerplatform-actions/actions-install@v1
+      with:
+        pac-version-override: 1.31.6
 
     - name: Pack solution
 
@@ -128,7 +130,7 @@ jobs:
 
         solution-file: ${{ inputs.solution_outbound_folder}}/${{ inputs.solution_name }}_unmanaged.zip
 
-        solution-type: UnManaged
+        solution-type: Unmanaged
 
     
           
